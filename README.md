@@ -52,6 +52,8 @@ P/wcKu/21t8n8XVJ9OUwxrGzJ7g0RLQdmlHQwYpAtwR3R7nNEqyUF4SVLdU=
 =nRy3
 -----END PGP PUBLIC KEY BLOCK-----
 
+PGP Key Fingerprint for identity abhishekb@escanav.com:
+5578A8251BAE9733B8D31EC83D027BDB01F37512
 
 -------------------------------------------------------------------------------
 ### Who is the secondary contact for security updates, etc.?
@@ -90,6 +92,8 @@ uA==
 =gp+N
 -----END PGP PUBLIC KEY BLOCK-----
 
+PGP Key Fingerprint for identity govind@escanav.com:
+760AA051857801293E9C973E650325EDBE6E2478
 -------------------------------------------------------------------------------
 ### Were these binaries created from the 15.5 shim release tar?
 Please create your shim binaries starting with the 15.5 shim release tar file: https://github.com/rhboot/shim/releases/download/15.5/shim-15.5.tar.bz2
@@ -252,7 +256,7 @@ Grub2 launches linux kernel only.
 -------------------------------------------------------------------------------
 Signed Shim will launch signed grubx64
 Signed grubx64 will launch signed kernel (vmlinuz64)
-vmlinuz64 is based on kernel 2.06
+vmlinuz64 is based on kernel 5.15.10
 So all known vulnerabilities are patched. Plus binaries are signed with EV-Cert to ensure secure boot.
 
 -------------------------------------------------------------------------------

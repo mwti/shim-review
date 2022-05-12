@@ -6,7 +6,7 @@ RUN apt-get install -y git build-essential make gnu-efi libelf-dev efitools efib
 RUN mkdir /git
 WORKDIR /git
 RUN git clone https://github.com/rhboot/shim.git /git/shim
-RUN git clone https://github.com/mwti/rescueshim.git /git/rescueshim
+RUN git clone https://github.com/mwti/shim-review.git /git/rescueshim
 WORKDIR /git
 RUN cp rescueshim/sbat.csv shim/data/
 WORKDIR /git/shim
